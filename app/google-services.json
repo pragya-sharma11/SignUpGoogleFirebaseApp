@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552257281579",
+    "project_id": "signupwithapp",
+    "storage_bucket": "signupwithapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552257281579:android:10a5df1321bed2c132546e",
+        "android_client_info": {
+          "package_name": "com.example.signupgooglefirebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552257281579-57sug7lqfa2o9q7u7vrtm2i8uk3i2pd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD2uUaA5nFdjDaLV1npUs3zEO9uj49aBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552257281579-57sug7lqfa2o9q7u7vrtm2i8uk3i2pd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
