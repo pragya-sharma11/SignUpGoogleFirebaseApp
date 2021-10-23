@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         b1 = findViewById(R.id.button);
         e1 = findViewById(R.id.editText1);
         e2 = findViewById(R.id.editText2);
+        e2.setInputType(InputType.TYPE_CLASS_TEXT|InputType.TYPE_TEXT_VARIATION_PASSWORD); //to type password in hidden type.
         p = findViewById(R.id.progressBar);
         p.setVisibility(View.INVISIBLE);
         firebaseAuth = FirebaseAuth.getInstance();
